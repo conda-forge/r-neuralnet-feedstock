@@ -1,11 +1,11 @@
-About r-neuralnet
-=================
+About r-neuralnet-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-neuralnet-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/bips-hb/neuralnet
 
 Package license: GPL (>= 2)
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-neuralnet-feedstock/blob/main/LICENSE.txt)
 
 Summary: Training of neural networks using backpropagation, resilient backpropagation with (Riedmiller, 1994) or without weight backtracking (Riedmiller and Braun, 1993) or the modified globally convergent version by Anastasiadis et al. (2005). The package allows flexible settings through custom-choice of error and activation function. Furthermore, the calculation of generalized weights (Intrator O & Intrator N, 1993) is implemented.
 
