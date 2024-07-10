@@ -1,6 +1,5 @@
 {% set version = '1.44.2' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-neuralnet
@@ -13,8 +12,7 @@ source:
   sha256: 5f66cd255db633322c0bd158b9320cac5ceff2d56f93e4864a0540f936028826
 
 build:
-  merge_build_host: True  # [win]
-  number: 4
+  number: 5
   noarch: generic
   rpaths:
     - lib/R/lib/
